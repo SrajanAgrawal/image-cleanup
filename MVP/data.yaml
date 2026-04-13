@@ -1,0 +1,18 @@
+# # data.yaml
+# path: ./dataset  # path to your dataset folder
+# train: train     # where the training images are
+# val: train       # for the MVP, we can use the same images for validation
+
+# names:
+#   0: logo        # The name of our target object
+
+
+# Save this in /Users/srajan/Documents/Personal/ImageAnalyzer/ModelTraining/MVP/data.yaml
+
+# Use the FULL path to your dataset folder
+path: /Users/srajan/Documents/Personal/ImageAnalyzer/ModelTraining/MVP/dataset 
+train: train  # This points to /Users/srajan/Documents/Personal/ImageAnalyzer/ModelTraining/MVP/dataset/train
+val: train    # Same for MVP
+
+names:
+  0: logo
